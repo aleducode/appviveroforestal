@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eia.app.forestapp.Fragment.Menu"
+    android:orientation="vertical"
+
+
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/distancia">
+
+        <TextView
+            android:id="@+id/textView"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:paddingTop="50dp"
+            android:text="EVENTOS"
+            android:textColor="@android:color/background_light"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+
+
+        >
+        <LinearLayout
+            android:id="@+id/lyconsulta"
+            android:gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde"
+            android:paddingLeft="10dp"
+            android:paddingTop="@dimen/distancia"
+            android:paddingRight="@dimen/distancia1"
+            android:paddingBottom="@dimen/distancia"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/eventos_imagen"
+                android:layout_height="@dimen/eventos_imagen"
+                android:src="@drawable/vereventos" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:paddingTop="@dimen/distancia"
+                android:text="HISTORICO"
+                android:maxLines="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyregistro"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde1"
+            android:paddingLeft="@dimen/distancia1"
+            android:paddingTop="@dimen/distancia"
+            android:paddingRight="10dp"
+            android:paddingBottom="@dimen/distancia"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/eventos_imagen"
+                android:layout_height="@dimen/eventos_imagen"
+                android:src="@drawable/bombilla" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:paddingTop="@dimen/distancia"
+                android:text="REGISTRO"
+                android:maxLines="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    //SEGUNDA FILA//
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+
+
+        >
+        <LinearLayout
+            android:id="@+id/lygasto"
+            android:gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="@dimen/distancia"
+            android:paddingRight="@dimen/distancia1"
+            android:paddingBottom="@dimen/distancia"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/eventos_imagen"
+                android:layout_height="@dimen/eventos_imagen"
+                android:src="@drawable/hidrico" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:paddingTop="@dimen/distancia"
+                android:text="GASTO"
+                android:maxLines="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyinfo"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde2"
+            android:paddingLeft="@dimen/distancia1"
+            android:paddingTop="@dimen/distancia"
+            android:paddingRight="10dp"
+            android:paddingBottom="@dimen/distancia"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/info"
+                android:layout_width="@dimen/eventos_imagen"
+                android:layout_height="@dimen/eventos_imagen"
+                android:src="@drawable/informacion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:paddingTop="@dimen/distancia"
+                android:text="INFO"
+                android:maxLines="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

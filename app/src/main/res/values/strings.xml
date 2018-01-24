@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ForestApp</string>
+    <string name="title_activity_navegable_menu">NavegableMenu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Eventos</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_web_view_gasto_hidrico">WebViewGastoHidrico</string>
+
+</resources>

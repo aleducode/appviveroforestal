@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingBottom="46dp"
+    android:paddingLeft="46dp"
+    android:paddingTop="46dp"
+    android:paddingRight="46dp"
+    tools:context="eia.app.forestapp.MainActivity">
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/ecologia"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="VIVERO FORESTAL"
+        android:fontFamily="Roboto Regular|bold"
+        android:gravity="center"
+        android:textSize="20sp"
+
+        android:textColor="#c0c0c0"
+        android:paddingBottom="30dp"/>
+    <EditText
+        android:fontFamily="sans-serif"
+        android:id="@+id/nombre"
+       style="@style/editText_style"
+        android:inputType="textEmailAddress"
+        android:hint="Nombre de Usuario"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:fontFamily="sans-serif"
+        android:id="@+id/contraseña"
+        style="@style/editText_style"
+        android:inputType="numberPassword"
+        android:hint="Contraseña"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/ingresar"
+        style="@style/button_style"
+        android:text="Iniciar Sesión"
+        android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:text="Powered By: Ducode. All rights reserved ®"
+            android:textColor="#c0c0c0"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
